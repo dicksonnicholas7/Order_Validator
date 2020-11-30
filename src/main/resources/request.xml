@@ -1,0 +1,8 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+               xmlns:od="http://seaborne.com/ConsumerValidator">
+    <soap:Body>
+        <od:getOrderRequest >
+            <od:userId>102</od:userId>
+        </od:getOrderRequest>
+    </soap:Body>
+</soap:Envelope>
